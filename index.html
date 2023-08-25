@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <title> Results Summary Component</title>
+
+</head>
+<body>
+
+  <div id="result-summary-component-container">
+    <div id="left-section">
+      <p id="result-text" >Your Result<p>
+      <div id="percentage-container">
+        <div id="total-score">76</div>
+        <div id="underscore">of 100</div>
+      </div>
+      <p id="great-text">Great</p>
+      <p id="comment-text">You scored higher than 65% of the people who have taken these test</p>
+    </div>
+    <div id="right-section">
+      <h4>Summary</h4>
+      <div id="scores-container">
+        <div id="item-1" class="items" >
+          <div id="reaction" class="left-items">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction icon">
+            <p id="reaction-text">Reaction</p>
+          </div>
+          <div class="score">
+            <p>80</p>
+            <p class="underscore">/</p>
+            <p class="underscore">100</p>
+          </div>
+        </div>
+        <div id="item-2" class="items">
+          <div id="memory" class="left-items">
+            <img src="./assets/images/icon-memory.svg" alt="reaction icon">
+            <p id="memory-text">Memory</p>
+          </div>
+          <div class="score">
+            <p>92</p>
+            <p class="underscore">/</p>
+            <p class="underscore">100</p>
+          </div>
+        </div>
+        <div id="item-3" class="items">
+          <div id="verbal" class="left-items">
+            <img src="./assets/images/icon-verbal.svg" alt="reaction icon">
+            <p id="verbal-text">Verbal</p>
+          </div>
+          <div class="score">
+            <p>61</p>
+            <p class="underscore">/</p>
+            <p class="underscore">100</p>
+          </div>
+        </div>
+        <div id="item-4" class="items">
+          <div id="visual"  class="left-items">
+            <img src="./assets/images/icon-visual.svg" alt="reaction icon">
+            <p id="visual-text">Visual</p>
+          </div>
+          <div class="score" >
+            <p>72</p>
+            <p class="underscore">/</p>
+            <p class="underscore">100</p>
+          </div>
+        </div>
+        <button onclick="alertUser()">Continue</button>
+      </div>
+    </div>
+  </div>
+
+<script src="index.js"></script>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
